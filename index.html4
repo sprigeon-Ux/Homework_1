@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Prigeon Website - Home</title>
+
+<style>
+
+body {
+  background-color: lightblue;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+section {
+  background-color: white;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+nav {
+  text-align: center;
+  background-color: navy;
+  padding: 15px;
+}
+
+
+nav a {
+  color: white;
+  margin: 10px;
+}
+
+
+footer {
+  text-align: center;
+  background-color: navy;
+  color: white;
+  padding: 10px;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>Hello, World!</h1>
+
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="projects.html">Projects</a>
+
+<a href="about.html">About/Contact</a>
+
+</nav>
+
+
+</header>
+
+
+
+<main>
+
+
+<section>
+
+<h2>Welcome to My Web Development Page</h2>
+
+<p>
+This is my very first web page in Web Development.
+</p>
+
+</section>
+
+
+
+
+<section>
+
+<h2>My Top 3 Favorite Foods</h2>
+
+<ol>
+
+<li>French Fries</li>
+
+<li>Chicken Wings</li>
+
+<li>Cheeseburgers</li>
+
+</ol>
+
+</section>
+
+
+
+
+<section>
+
+<h3>My Favorite Website</h3>
+
+<p>
+My favorite website is 
+<a href="https://www.canva.com">Canva</a>.
+</p>
+
+
+<p>
+This paragraph includes 
+<b>bold</b>, 
+<em>italic</em>, and 
+<u>underlined text</u>.
+</p>
+
+</section>
+
+
+
+</main>
+
+
+
+<footer>
+
+<p>
+Created by Shavon Prigeon
+</p>
+
+</footer>
+
+
+
+</body>
+
+</html>
