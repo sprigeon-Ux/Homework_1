@@ -1,0 +1,169 @@
+/* Consistent color palette used across all pages */
+
+body {
+background-color: #d9f0f7;
+color: #172033;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin: 0;
+}
+
+/* Header */
+header {
+background-color: #12355b;
+padding: 20px;
+}
+
+h1 {
+color: #ffffff;
+text-align: center;
+}
+
+nav {
+text-align: center;
+padding: 15px;
+}
+
+nav a {
+color: #ffffff;
+margin: 10px;
+font-weight: bold;
+}
+
+nav a:focus,
+nav a:hover {
+outline: 3px solid #ffffff;
+outline-offset: 3px;
+}
+
+/* Main content */
+main {
+max-width: 1000px;
+margin: 0 auto;
+padding: 20px;
+}
+
+/*
+Gestalt Principle: Proximity
+Related information is grouped together inside sections and cards.
+*/
+section {
+background-color: #ffffff;
+border: 2px solid #12355b;
+border-radius: 8px;
+padding: 20px;
+margin-bottom: 24px;
+}
+
+/*
+Gestalt Principle: Similarity
+Related food items use the same card design.
+*/
+.foods {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.food-card {
+background-color: #eef7fa;
+border: 2px solid #12355b;
+border-radius: 8px;
+padding: 20px;
+flex: 1 1 250px;
+}
+
+/* Links */
+a {
+color: #064f7d;
+font-weight: bold;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+outline: 3px solid #12355b;
+outline-offset: 2px;
+}
+
+/* Forms */
+fieldset {
+border: 2px solid #12355b;
+border-radius: 8px;
+padding: 20px;
+}
+
+legend {
+font-weight: bold;
+padding: 0 8px;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+label {
+display: block;
+font-weight: bold;
+margin-bottom: 6px;
+}
+
+input,
+textarea {
+width: 100%;
+max-width: 600px;
+padding: 10px;
+border: 2px solid #333333;
+border-radius: 5px;
+font-size: 16px;
+box-sizing: border-box;
+}
+
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+border: 3px solid #8b0000;
+}
+
+.error-message {
+color: #8b0000;
+font-weight: bold;
+font-size: 14px;
+margin-top: 5px;
+}
+
+button {
+background-color: #12355b;
+color: #ffffff;
+border: none;
+border-radius: 5px;
+padding: 12px 20px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #0b243d;
+}
+
+/* Footer */
+footer {
+text-align: center;
+background-color: #12355b;
+color: #ffffff;
+padding: 10px;
+margin-top: 20px;
+}
+
+/* Mobile accessibility */
+@media (max-width: 600px) {
+nav a {
+display: block;
+margin: 8px;
+}
+
+main {
+padding: 10px;
+}
+}
