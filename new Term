@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prigeon Website - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Welcome to My Website</h1>
+
+```
+<nav aria-label="Main navigation">
+  <a href="index.html" aria-current="page">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="about.html">About/Contact</a>
+</nav>
+```
+
+  </header>
+
+  <main>
+
+```
+<section>
+  <h2>Welcome to My Web Development Page</h2>
+  <p>This is my very first web page in Web Development.</p>
+  <img
+  src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+  alt="Laptop computer on a desk representing web development and technology"
+  width="400"
+/></img>
+</section>
+
+<section>
+  <h2>My Top 3 Favorite Foods</h2>
+
+  <ol>
+    <li>French Fries</li>
+    <li>Chicken Wings</li>
+    <li>Cheeseburgers</li>
+  </ol>
+</section>
+
+<section>
+  <h2>My Favorite Website</h2>
+
+  <p>
+    My favorite website is
+    <a href="https://www.canva.com">Canva</a>.
+  </p>
+
+  <p>
+    This paragraph includes
+    <strong>bold</strong>,
+    <em>italic</em>, and
+    <u>underlined text</u>.
+  </p>
+</section>
+```
+
+  </main>
+
+  <footer>
+    <p>Created by Shavon Prigeon</p>
+  </footer>
+
+</body>
+</html>
