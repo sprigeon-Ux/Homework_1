@@ -1,0 +1,207 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prigeon Website - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About/Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome to My Web Development Page</h2>
+      <p>This is my very first web page in Web Development.</p>
+      <img
+        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+        alt="Laptop computer on a desk representing web development and technology"
+        width="400"
+      >
+    </section>
+
+    <section>
+      <h2>My Top 3 Favorite Foods</h2>
+      <ol>
+        <li>French Fries</li>
+        <li>Chicken Wings</li>
+        <li>Cheeseburgers</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>My Favorite Website</h2>
+      <p>
+        My favorite website is
+        <a href="https://www.canva.com">Canva</a>.
+      </p>
+      <p>
+        This paragraph includes
+        <strong>bold</strong>,
+        <em>italic</em>, and
+        <u>underlined text</u>.
+  </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Shavon Prigeon</p>
+  </footer>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Prigeon Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Favorite Foods</h1>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+      <a href="about.html">About/Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="food-section">
+      <h2>My Favorite Foods Recipes</h2>
+
+      <div class="foods">
+
+        <article class="food-card">
+          <h3>French Fries</h3>
+          <p>Cut long potatoes into strips, season them, and cook until crispy.</p>
+        </article>
+
+        <article class="food-card">
+          <h3>Chicken Wings</h3>
+          <p>Marinate the chicken wings, season them, and fry or bake until fully cooked.</p>
+        </article>
+
+        <article class="food-card">
+          <h3>Cheeseburgers</h3>
+          <p>Grill the burger, add cheese, and assemble it with your favorite toppings.</p>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Shavon Prigeon</p>
+  </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About & Contact - Prigeon Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>About Me</h1>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html" aria-current="page">About/Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        My name is Shavon Prigeon. I am currently a student at Campus.edu.
+        I am learning Web Development and Information Technology. I am a
+        creative person who enjoys learning new things and expressing myself
+        through art and music.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact Me</h2>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Contact Information</legend>
+
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              aria-required="true"
+              aria-describedby="name-error"
+            >
+            <p id="name-error" class="error-message">
+              Please enter your name.
+            </p>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              aria-required="true"
+              aria-describedby="email-error"
+            >
+            <p id="email-error" class="error-message">
+              Please enter a valid email address.
+            </p>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              required
+              aria-required="true"
+              aria-describedby="message-error"
+            ></textarea>
+            <p id="message-error" class="error-message">
+              Please enter a message.
+            </p>
+          </div>
+        </fieldset>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Shavon Prigeon</p>
+  </footer>
+
+</body>
+</html>
